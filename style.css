@@ -11,7 +11,7 @@ h3{
 .N{
    color: gray;
 }
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 150px;
 }
@@ -39,4 +39,31 @@ height: 95%;
     background-image: url(pic/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.fc{
+    display: flex;
+   padding: 3%;
+}
+
+.ew{
+    width: 50%;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding-left: 3%;
+    box-shadow: 10px 10px 30px gray;
+    border-radius: 15px;
+    border-left: 7px solid blue;
+ 
+}
+.ea{
+    background-image: url(pic/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#j{
+    border-left: 7px solid tomato;
+}
+footer p{
+    text-align: center;
+    color: rgb(0, 0, 0);
 }
